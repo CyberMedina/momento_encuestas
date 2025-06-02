@@ -18,7 +18,7 @@ secuencias_preguntas_cantidadHijos = {
 preguntas_a_recorrer = [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]
 
 
-preguntas_con_siguiente = [1, 2, 5, 11, 20, 32, 34, 40, 41, 43, 44, 46]
+preguntas_con_siguiente = [1, 2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 34, 40, 41, 43, 44, 46]
 
 
 
@@ -98,6 +98,9 @@ def generar_respuestas_aleatorias(pregunta_respuestas, secuencias_preguntas_cant
                     
                     pregunta_respuestas_copia[sub_idx]["respuesta"][sub_respuesta_seleccionada] -= 1
                     respuestas[sub_pregunta_texto] = sub_respuesta_seleccionada
+
+                    if sub_idx in preguntas_con_siguiente:
+                        respuestas[f"Siguiente seccion{sub_idx}"] = "Siguiente"
                     
                     # Actualizar el conteo de respuestas seleccionadas para la subsección
                     if sub_pregunta_texto not in conteo_respuestas:
@@ -123,6 +126,8 @@ def generar_respuestas_aleatorias(pregunta_respuestas, secuencias_preguntas_cant
                 continue
 
             if idx in preguntas_con_siguiente:
+                if idx == 8:
+                    print(f"SE ENCONTRÓ UNA PREGUNTA CON SIGUIENTE 8: {idx}")
                 respuestas[f"Siguiente seccion{idx}"] = "Siguiente"
 
             # Si debemos saltar a la pregunta 48, actualizar el índice y procesar esa pregunta

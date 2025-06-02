@@ -10,20 +10,20 @@ Pregunta: ¿Cuántos niñ@o hij@s con trastorno del espectro autista (TEA) tiene a 
 
 ==================================================
 Pregunta: ¿Cuál es el género de su hijo?
-  Respuesta: Femenino, Conteo: 82
   Respuesta: Másculino, Conteo: 222
+  Respuesta: Femenino, Conteo: 82
 
 ==================================================
 Pregunta: ¿Cuál es la edad de su hijo?
-  Respuesta: 11 a 13 años, Conteo: 43
   Respuesta: 8 a 10 años, Conteo: 57
+  Respuesta: 11 a 13 años, Conteo: 43
   Respuesta: 5 a 7 años, Conteo: 204
 
 ==================================================
 Pregunta: ¿Cuál es el grado de autismo de su hijo?
   Respuesta: Nivel 1: Necesita ayuda, Conteo: 225
-  Respuesta: Nivel 3: Necesita ayuda muy notable, Conteo: 22
   Respuesta: Nivel 2: Necesita ayuda notable, Conteo: 57
+  Respuesta: Nivel 3: Necesita ayuda muy notable, Conteo: 22
 
 ==================================================
 Pregunta: ¿Su hijo cuenta con algún dispositivo inteligente? (Teléfono celular, tablet, computadora, consola de videojuegos)
@@ -40,8 +40,8 @@ Pregunta: ¿Por qué su hijo no tiene ningún dispositivo inteligente?
 Pregunta: ¿Qué tipo de aparato inteligente es el que utiliza más su hijo?
   Respuesta: Tablet, Conteo: 90
   Respuesta: Teléfono celular, Conteo: 134
-  Respuesta: Computadora, Conteo: 10
   Respuesta: Consola de videojuegos, Conteo: 10
+  Respuesta: Computadora, Conteo: 10
 
 ==================================================
 Pregunta: ¿Qué tipo de aplicaciones tiene instalado?
@@ -53,8 +53,8 @@ Pregunta: ¿Qué tipo de aplicaciones tiene instalado?
 ==================================================
 Pregunta: ¿Cuánto tiempo al día pasa su hijo en el celular?
   Respuesta: 3 Horas, Conteo: 50
-  Respuesta: 1 Hora, Conteo: 100
   Respuesta: 4 Horas, Conteo: 30
+  Respuesta: 1 Hora, Conteo: 100
   Respuesta: 2 Horas, Conteo: 50
   Respuesta: 5 Horas o más, Conteo: 14
 
@@ -87,19 +87,30 @@ Pregunta: ¿Cuánto estaría dispuesto a pagar en una aplicación que ayude en el tr
 
 ==================================================
 Pregunta: ¿De qué centro es usted?
-  Respuesta: Hospital Psicosocial Nacional, Conteo: 35
-  Respuesta: Centro de investigación Edu-terapéutico (CIE), Conteo: 155
   Respuesta: Hogar de protección Pajarito Azul, Conteo: 50
+  Respuesta: Centro de investigación Edu-terapéutico (CIE), Conteo: 155
+  Respuesta: Hospital Psicosocial Nacional, Conteo: 35
 
 ==================================================
 Pregunta: ¿En qué tienda suele descargar sus aplicaciones a su hijo?
-  Respuesta: AppStore (Dispositivos Apple iOS), Conteo: 80
   Respuesta: PlayStore (Dispositivos Android), Conteo: 160
+  Respuesta: AppStore (Dispositivos Apple iOS), Conteo: 80
 
 ==================================================
 Pregunta: ¿Ha visto anuncios publicitarios a cerca de aplicaciones que den tratamiento a los niños con TEA?
-  Respuesta: No, Conteo: 197
   Respuesta: Si, Conteo: 43
+  Respuesta: No, Conteo: 197
+
+==================================================
+Pregunta: ¿En qué medios de comunicación ha notado la promoción de aplicaciones para el tratamiento de niños con TEA?
+  Respuesta: Redes Sociales, Conteo: 43
+
+==================================================
+Pregunta: ¿Con qué frecuencia ha visto alguna publicidad a cerca de aplicaciones que den tratamiento a los niños con TEA?
+  Respuesta: Diario, Conteo: 10
+  Respuesta: Mensual, Conteo: 18
+  Respuesta: Semanal, Conteo: 11
+  Respuesta: Quincenal, Conteo: 4
 
 ==================================================
 Pregunta: ¿Cuáles de los siguientes medios de comunicación le gustaría ver anuncios a cerca de una aplicación que ayude con el tratamiento de los niños con TEA?
@@ -116,25 +127,14 @@ Pregunta: ¿Qué factores le llamaría la atención en un anuncio publicitario a cer
   Respuesta: Lenguaje, Conteo: 240
 
 ==================================================
-Pregunta: ¿En qué medios de comunicación ha notado la promoción de aplicaciones para el tratamiento de niños con TEA?
-  Respuesta: Redes Sociales, Conteo: 43
-
-==================================================
-Pregunta: ¿Con qué frecuencia ha visto alguna publicidad a cerca de aplicaciones que den tratamiento a los niños con TEA?
-  Respuesta: Mensual, Conteo: 18
-  Respuesta: Semanal, Conteo: 11
-  Respuesta: Diario, Conteo: 10
-  Respuesta: Quincenal, Conteo: 4
-
-==================================================
 Pregunta: ¿Cuál es el género de su PRIMER hijo?
   Respuesta: Másculino, Conteo: 24
   Respuesta: Femenino, Conteo: 6
 
 ==================================================
 Pregunta: ¿Cuál es la edad de su PRIMER hijo?
-  Respuesta: 5 a 7 años, Conteo: 21
   Respuesta: 8 a 10 años, Conteo: 6
+  Respuesta: 5 a 7 años, Conteo: 21
   Respuesta: 11 a 13 años, Conteo: 3
 
 ==================================================
@@ -157,13 +157,13 @@ Pregunta: ¿Cuál es la edad de su SEGUNDO hijo?
 ==================================================
 Pregunta: ¿Cuál es el grado de autismo de su SEGUNDO hijo?
   Respuesta: Nivel 1: Necesita ayuda, Conteo: 27
-  Respuesta: Nivel 2: Necesita ayuda notable, Conteo: 2
   Respuesta: Nivel 3: Necesita ayuda muy notable, Conteo: 1
+  Respuesta: Nivel 2: Necesita ayuda notable, Conteo: 2
 
 ==================================================
 Pregunta: ¿Cuál es el género de su TERCER hijo?
-  Respuesta: Másculino, Conteo: 2
   Respuesta: Femenino, Conteo: 8
+  Respuesta: Másculino, Conteo: 2
 
 ==================================================
 Pregunta: ¿Cuál es la edad de su TERCER hijo?
@@ -171,8 +171,8 @@ Pregunta: ¿Cuál es la edad de su TERCER hijo?
 
 ==================================================
 Pregunta: ¿Cuál es el grado de autismo de su TERCER hijo?
-  Respuesta: Nivel 1: Necesita ayuda, Conteo: 5
   Respuesta: Nivel 3: Necesita ayuda muy notable, Conteo: 4
+  Respuesta: Nivel 1: Necesita ayuda, Conteo: 5
   Respuesta: Nivel 2: Necesita ayuda notable, Conteo: 1
 
 ==================================================

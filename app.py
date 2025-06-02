@@ -18,8 +18,8 @@ def procesar_datos(driver, respuestas):
                 intentos = 0
                 while intentos < 5:
                     try:
-                        # elemento = driver.find_element(By.XPATH, f"//span[contains(text(), '{item}')]")
-                        elemento = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, f"//span[contains(text(), '{item}')]")))
+                        elemento = driver.find_element(By.XPATH, f"//span[contains(text(), '{item}')]")
+                        # elemento = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, f"//span[contains(text(), '{item}')]")))
                         elemento.click()
                         if item == "Enviar" or item == "Siguiente":
                             time.sleep(1)
@@ -35,10 +35,10 @@ def procesar_datos(driver, respuestas):
         else:
             print(f"Respondiendo: {respuesta}")
             intentos = 0
-            while intentos < 5:
+            while intentos < 3:
                 try:
-                    # elemento = driver.find_element(By.XPATH, f"//span[contains(text(), '{respuesta}')]")
-                    elemento = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, f"//span[contains(text(), '{respuesta}')]")))
+                    elemento = driver.find_element(By.XPATH, f"//span[contains(text(), '{respuesta}')]")
+                    # elemento = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, f"//span[contains(text(), '{respuesta}')]")))
                     elemento.click()
                     if respuesta == "Enviar" or respuesta == "Siguiente":
                         time.sleep(1)
@@ -48,7 +48,7 @@ def procesar_datos(driver, respuestas):
                     intentos += 1
                     print(f"Reintentando... ({intentos} de 3 intentos)")
                     time.sleep(1)
-                    if intentos == 5:
+                    if intentos == 3:
                         print("Se han agotado los intentos. Deteniendo el proceso.")
                         return
     print("\n" + "-"*40 + "\n")  # Separador entre diccionarios
@@ -60,7 +60,7 @@ def procesar_datos(driver, respuestas):
 # función para iniciar el servicio del WebDriver y abrir el navegador
 def iniciar_navegador():
     # Configura el servicio del WebDriver
-    service = Service('C:/Users/medin/Downloads/chromedriver-win64/chromedriver.exe')
+    service = Service('C:/Users/medin/Downloads/chrome-win64/chromedriver.exe')
     service.start()
 
     # Configura las opciones del WebDriver
@@ -124,10 +124,10 @@ def responder_encuesta(url_encuesta, datos):
 
 
 # URL de la encuesta
-url_encuesta = "https://docs.google.com/forms/d/e/1FAIpQLSdCl_2SUWVF6F89hDnDiikgrdLVkeW6wWZk2-AnQ3zHDnxPRg/formResponse"
+url_encuesta = "https://docs.google.com/forms/d/1Le2M-MgMo1aXMc1A66Fanisj9LloXgoQ4V6iVmdOTZg/viewform?edit_requested=true"
 
 
-respuestas_aleatorias = generar_respuestas_aleatorias(pregunta_respuestas, secuencias_preguntas_cantidadHijos, 344)
+respuestas_aleatorias = generar_respuestas_aleatorias(pregunta_respuestas, secuencias_preguntas_cantidadHijos, 3)
 
 
 
